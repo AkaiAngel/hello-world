@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+
+class UserInfo
+{
+  public:
+  string firstName, lastName;
+  int age;
+};
+
+UserInfo::UserInfo()
+{
+  firstName = " ";
+  lastName = " "
+  age = 0;
+}
+
+int main()
+{
+  UserInfo client1;
+  cout << "Client1 info:\n";
+  cout << "First name: " << client1.firstName << endl;
+  cout << "Last name: " << client1.lastName << endl;
+  cout << "Age: " << client1.age << endl;
+  
+  return 0;
+}
